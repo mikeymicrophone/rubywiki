@@ -1,6 +1,6 @@
 Ruby class
 
-Rails
+[[Rails]]
 
 Gems
 
