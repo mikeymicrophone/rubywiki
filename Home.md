@@ -4,6 +4,6 @@ Ruby class
 
 [[Gems]]
 
-Command-line programs
+[[Command-line programs]]
 
 Git
