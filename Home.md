@@ -2,7 +2,7 @@ Ruby class
 
 [[Rails]]
 
-Gems
+[[Gems]]
 
 Command-line programs
 
