@@ -1,0 +1,64 @@
+This is the data for a wiki about Ruby development and related tools.
+
+This repository was created by the gollum gem, but you should be able to read and edit the data even without that.
+
+For example, you can click the 'fork' button, click one of the pages, and then click the edit button right in your browser.
+
+If you want to use gollum to update and view the pages with a web interface, do these steps.
+
+Run these commands using a command-line interface (shell) such as the app Terminal.  Ignore the $, just copy the rest of the command.
+
+1. make sure git is installed
+
+$ git -v
+
+2. use git to copy this repo into a folder on your computer
+
+$ git clone git://github.com/schwabsauce/rubywiki.git
+
+3. make sure ruby is installed
+
+$ ruby -v
+
+4. get the needed Ruby code
+
+$ gem install gollum
+
+5. move into the folder into which you copied this repository
+
+$ cd rubywiki
+
+6. run the command 'gollum' to start the server
+
+$ gollum
+
+7. visit http://localhost:4567 in your browser to access the wiki.
+
+8. when you're done using the wiki, you can type control-c to stop the gollum server, or just close the window it's running in.
+
+After you make edits, you can push them back to github if you like.
+
+$ git push origin master
+
+Remember that you'll need to run this from within the rubywiki folder.
+
+$ cd ~/projects/rubywiki
+(or wherever you saved it)
+
+Also, you might need to know where you're pushing to.  If you just copied my version of this, you won't have permission to push by default (unless I give it to you).  If you made your own fork before cloning, your push will work.
+
+If, however, you need to tell your cloned repo to push to your own fork, you need to edit a file, replacing my username with yours.  The file, 'config', is in a hidden folder called '.git', inside the rubywiki folder:
+
+~/projects/rubywiki/.git/config
+
+You can edit it like any text file, but since it's in a hidden folder, graphical programs like word processors might not make it easy to find and open.  Some command-line programs that you can use to open it include "vi", "emacs", "mate", and "pico".  Using pico as an example, open the file like this:
+
+$ pico ~/projects/rubywiki/.git/config
+
+Make the edit and figure out how to save it with that particular program.
+
+Now try this.
+
+$ git push origin master
+
+Your system will tell you if it succeeds in pushing your new edits up to github's servers for future sharing.
