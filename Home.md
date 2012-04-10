@@ -6,4 +6,4 @@ Ruby class
 
 [[Command line programs]]
 
-Git
+[[Git]]
